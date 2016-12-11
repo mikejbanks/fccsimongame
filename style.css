@@ -1,0 +1,209 @@
+#board{
+	background-color:white;
+	height:400px;
+	width:400px;
+	top:30%;
+	left:15%;
+	position:absolute;
+}
+
+body{
+	background-color:#000080;;
+}
+
+.boardSquare{
+	height:200px;
+	width:200px;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	display:block;
+	float:left;
+	background-color: Transparent;
+	font-size:60px;
+}
+
+#boardTopLeft{
+
+	background-color: #458B00; /* Light Color 7FFF00*/
+}
+
+.lightTopLeft{
+	background-color: #7FFF00 !important;
+}
+
+#boardTopRight{
+
+	background-color: #8B0000; /* Light Color #FF0000 */
+}
+.lightTopRight{
+	background-color: #FF0000 !important;
+}
+
+
+#boardLowerLeft{
+
+	background-color: #EE9A00; /* Light Color #FFCC11 */
+}
+
+.lightLowerLeft{
+	background-color: #FFCC11 !important;
+}
+
+
+#boardLowerRight{
+
+	background-color: #236B8E; /* Light Color #87CEFA */
+}
+
+.lightLowerRight{
+	background-color: #87CEFA !important;
+}
+
+
+#countBoard{
+	background-color: black;
+	color: red;
+	left:22%;
+	top:20%;
+	height:40px;
+	width:200px;
+	position:absolute;
+	font-size:30px;
+}
+
+.togglePlayer{
+	margin-top:50px;
+	margin-left:50px;
+	height:50px;
+	width:120px;
+}
+
+h2 {
+  font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: white;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  margin-left:12.5%;
+}
+
+.title{
+	left:15%;
+	top:1%;
+}
+
+.restart {
+  background: #f21111;
+  background-image: -webkit-linear-gradient(top, #f21111, #b82b2b);
+  background-image: -moz-linear-gradient(top, #f21111, #b82b2b);
+  background-image: -ms-linear-gradient(top, #f21111, #b82b2b);
+  background-image: -o-linear-gradient(top, #f21111, #b82b2b);
+  background-image: linear-gradient(to bottom, #f21111, #b82b2b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  /* padding: 10px 20px 10px 20px; */
+  text-decoration: none;
+  height:50px;
+  width:120px;
+  /*margin-top:20px;*/
+  margin-left:140px;
+  outline:none;
+  display:inline;
+}
+
+.restart:hover {
+  background: #483cfa;
+  background-image: -webkit-linear-gradient(top, #483cfa, #304af0);
+  background-image: -moz-linear-gradient(top, #483cfa, #304af0);
+  background-image: -ms-linear-gradient(top, #483cfa, #304af0);
+  background-image: -o-linear-gradient(top, #483cfa, #304af0);
+  background-image: linear-gradient(to bottom, #483cfa, #304af0);
+  text-decoration: none;
+  outline:none;
+}
+
+.start {
+  background: #f21111;
+  background-image: -webkit-linear-gradient(top, #f21111, #b82b2b);
+  background-image: -moz-linear-gradient(top, #f21111, #b82b2b);
+  background-image: -ms-linear-gradient(top, #f21111, #b82b2b);
+  background-image: -o-linear-gradient(top, #f21111, #b82b2b);
+  background-image: linear-gradient(to bottom, #f21111, #b82b2b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+ /* padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+  height:50px;
+  width:120px;
+  /*margin-top:20px;*/
+  margin-left:140px;
+  outline:none;
+  display:inline;
+}
+
+.start:hover {
+  background: #483cfa;
+  background-image: -webkit-linear-gradient(top, #483cfa, #304af0);
+  background-image: -moz-linear-gradient(top, #483cfa, #304af0);
+  background-image: -ms-linear-gradient(top, #483cfa, #304af0);
+  background-image: -o-linear-gradient(top, #483cfa, #304af0);
+  background-image: linear-gradient(to bottom, #483cfa, #304af0);
+  text-decoration: none;
+  outline:none;
+}
+
+
+input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding-left:0; border:0;
+						}
+
+						input[type=checkbox].css-checkbox + label.css-label {
+							margin-left:34%;
+							margin-top:5%;
+							padding-left:35px;
+							height:30px; 
+							display:inline-block;
+							line-height:30px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:30px;
+							vertical-align:middle;
+							cursor:pointer;
+							color:yellow;
+
+						}
+
+						input[type=checkbox].css-checkbox:checked + label.css-label {
+							background-position: 0 -30px;
+						}
+						label.css-label {
+				background-image:url(csscheckbox_3f5bd3f7617a578c200aa742689c997e.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+.checkboxStrict{
+	top:30%;
+	left:15%;
+}
+
+.led-on{
+  background-color:#DC0D29;
+}
+
+
+.brighten {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(211, 211, 211, 0.4)) !important;
+  background-blend-mode: screen !important;
+}
