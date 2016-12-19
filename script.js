@@ -39,6 +39,7 @@ $( "#start" ).on( "click", function() {
 	
 });
 
+/*Brighten color of part of board and then darken to original state.*/ 
 function changeColor(steps){
 	var elem = document.getElementById("boardTopLeft");
 	if(arrPattern[steps]==0){
@@ -77,6 +78,7 @@ function countBoardWrongIndicator(){
 	alert("Wrong");
 }
 
+/*When player presses board square take which board square is pressed and push to playerChoices array.*/ 
 function playerTurnFunction(){
 	var idName=$(this).attr('id');
 	if(idName=='boardTopLeft'){
@@ -123,7 +125,7 @@ function playerTurnFunction(){
 	}
 	}
 }
-
+	/*Computer function depending on current stage of game cause board squares to brighten and then return to normal.*/
 	function computerTurnFunction(steps){
 		 $('#countBoard').text("Count: "+turnNumber);
 		var moves=setInterval(function(){
